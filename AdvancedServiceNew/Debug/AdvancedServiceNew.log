@@ -1,4 +1,6 @@
 ﻿  AdvancedServiceNew.cpp
-C:\Users\Alexandr\source\repos\AdvancedServiceNew\AdvancedServiceNew\AdvancedServiceNew.cpp(95,15): warning C4838: Преобразование из "int" в "DWORD" требует сужающего преобразования.
-C:\Users\Alexandr\source\repos\AdvancedServiceNew\AdvancedServiceNew\AdvancedServiceNew.cpp(111,15): warning C4838: Преобразование из "int" в "DWORD" требует сужающего преобразования.
+C:\Users\Alexandr\source\repos\AdvancedServiceNew\AdvancedServiceNew\AdvancedServiceNew.cpp(90,15): warning C4838: Преобразование из "int" в "DWORD" требует сужающего преобразования.
+C:\Users\Alexandr\source\repos\AdvancedServiceNew\AdvancedServiceNew\AdvancedServiceNew.cpp(106,15): warning C4838: Преобразование из "int" в "DWORD" требует сужающего преобразования.
+  CreatingProcess.cpp
+  Создание кода...
   AdvancedServiceNew.vcxproj -> C:\Users\Alexandr\source\repos\AdvancedServiceNew\Debug\AdvancedServiceNew.exe

@@ -14,6 +14,7 @@
 #include <Sens.h>
 #include <EventSys.h>
 #include <NTSecAPI.h>
+#include "CreatingProcess.h"
 #pragma comment(lib, "Wtsapi32.lib")
 
 SERVICE_STATUS_HANDLE g_ServiceStatusHandle;
@@ -144,6 +145,7 @@ DWORD WINAPI HandlerEx(DWORD control, DWORD eventType, void* eventData, void* co
         case(WTS_SESSION_LOGON):
             // Handle logon
             WriteToLog("LOGON WAS");
+            LaunchProcess("C:\\Windows\\System32\\notepad.exe");
             break;
 
         case(WTS_SESSION_LOCK):
@@ -161,6 +163,3 @@ DWORD WINAPI HandlerEx(DWORD control, DWORD eventType, void* eventData, void* co
     return NO_ERROR;
 }
 
-
-// Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
-// Отладка программы: F5 или меню "Отладка" > "Запустить отладку"
