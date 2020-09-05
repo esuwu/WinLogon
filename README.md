@@ -1,6 +1,6 @@
 # WinLogon
 
-WinLogon service intercepts user's login into the system event and launch "Notepad" in my case. The service is a daemon, so you shoud run it like accordingly. 
+WinLogon service intercepts user's login into the system event and launch "Notepad" in my case. The service is a daemon, so you shoud run it accordingly. 
 
 ## How to run:
 * First of all you should rewrite the hardcode path for logs in function WriteLog()
